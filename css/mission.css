@@ -1,0 +1,20 @@
+.page_box .page_slide:nth-child(1){
+    background-color:#22923b;
+}
+.page_box .page_slide:nth-child(1) .mission-text {
+    width: 100%;
+    left: 0;
+    top: 18%;
+    z-index: 99;
+}
+.page_box .page_slide:nth-child(1) .mission-top {
+    width: 100%;
+    left: 0;
+    top: 2%;
+    z-index: 99;
+}
+.page_box .page_slide:nth-child(1) .mission-bottom{
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}

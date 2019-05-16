@@ -1,0 +1,29 @@
+.page_box .page_slide.red:nth-child(1){
+    background-color: #0090c5;
+}
+.page_box .page_slide:nth-child(1) .value-text {
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+.page_box .page_slide:nth-child(1) .value-bg {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+.page_box .page_slide:nth-child(1) .value-word{
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+}
+.page_box .page_slide:nth-child(1) .yellow{
+    width: 1000px;
+    height: 500px;
+    background: #ffc801;
+    left: -162px;
+    top: 87%;
+    z-index: 99;
+    transform: rotateZ(15deg);
+}

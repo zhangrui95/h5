@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>联系瓦力</title>
+    <link href="css/swiper-3.3.1.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/rel.css"/>
+</head>
+<body>
+<div class="mask">
+    请将屏幕竖向浏览
+</div>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide yellow-silde">
+            <img class="ani rel" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" src="img/bg1.png"/>
+            <img class="ani rel" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s" src="img/title.png"/>
+            <img class="ani rel" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="1s" src="img/news.png"/>
+            <img class="ani rel-bottom" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.2s" src="img/bg2.png"/>
+            <img class="ani rel-bottom" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.2s" src="img/com-name.png"/>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/swiper.animate1.0.2.min.js"></script>
+<script type="text/javascript">
+    var mySwiper = new Swiper('.swiper-container',{
+        direction: 'vertical',
+        nextButton: '.img-next',
+        onInit: function(swiper){
+            swiperAnimateCache(swiper);
+            swiperAnimate(swiper);
+        },
+        onSlideChangeEnd: function(swiper){
+            swiperAnimate(swiper);
+        }
+    });
+</script>
+</body>
+</html>

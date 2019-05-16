@@ -1,0 +1,21 @@
+.page_box .page_slide.red:nth-child(1){
+    background-color: #bd1b28;
+}
+.page_box .page_slide.red:nth-child(1) .slide-white{
+    width: 90%;
+    height: 94%;
+    background: #ffffff;
+    left: 5%;
+    top:3%;
+}
+.page_box .page_slide:nth-child(1) .hope-text {
+    width: 100%;
+    left: 0;
+    top: 8%;
+    z-index: 999;
+}
+.page_box .page_slide:nth-child(1) .hope-word{
+    width: 100%;
+    left: 0;
+    bottom: 2%;
+}
